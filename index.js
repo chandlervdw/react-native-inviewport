@@ -5,6 +5,7 @@ class InViewPort extends Component {
   mixins: [NativeMethodsMixin]
 
   constructor() {
+    super(props);
     this.state = {
       rectTop: 0,
       rectBottom: 0
